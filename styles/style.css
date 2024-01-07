@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------ shared styles--------------- */
+
+.container {
+  width: 68%;
+  height: 600px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*------------------- head container--------------- */
+
+.head {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+
+.head-contant img {
+  position: relative;
+  z-index: -1;
+}
+
+.head-text {
+  height: 246px;
+  width: 632px;
+  position: absolute;
+  top: 256px;
+  right: 596px;
+  text-align: center;
+}
+
+.head-text h4 {
+  color: #fff;
+  font-family: 'Merriweather', serif;
+
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.head-text h2 {
+  color: #fff;
+  font-family: 'Merriweather', serif;
+
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
+
+
+
+/* ----------------sale section------------------------ */
+
+

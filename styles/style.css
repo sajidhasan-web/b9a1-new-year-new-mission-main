@@ -41,7 +41,7 @@
 
 .head-text h4 {
   color: #fff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 
   font-size: 32px;
   font-weight: 400;
@@ -49,15 +49,50 @@
 }
 .head-text h2 {
   color: #fff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 
   font-size: 72px;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
 }
 
-
-
 /* ----------------sale section------------------------ */
 
+.sale-container {
+  width: 41.82%;
+  max-width: 1920px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+  text-align: center;
+}
 
+
+
+.sale-text h1 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.sale-text h4 {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale-text h3 {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.sale-image img {
+  width: 802.9px;
+  height: 500px;
+  background-size: contain;
+}

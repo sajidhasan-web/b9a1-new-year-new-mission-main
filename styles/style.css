@@ -238,7 +238,7 @@
     justify-content: space-between;
     align-items: center;
     max-height: 463px;
-    
+
 }
 
 
@@ -299,9 +299,10 @@
 
 .coming-soon-new-year {
     
-
+    
     display: grid;
     margin-left: 118px;
+    margin-top: 70px;
     
 }
 

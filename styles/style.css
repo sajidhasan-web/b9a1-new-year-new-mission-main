@@ -11,7 +11,7 @@
 .container {
     width: 68%;
     height: 600px;
-    max-width: 1920px;
+    max-width: 1320px;
     margin: 0 auto;
 }
 
@@ -340,6 +340,7 @@
 /* -----------------------------gifts sections-------------------------------- */
 
 .gift {
+    margin-top: 120px;
     height: 1103px;
 }
 
@@ -422,20 +423,6 @@
 
 }
 
-/* .subscribe-input{
-    width: 648px;
-    height: 72px;
-    margin: 0 auto;
-    
-}
-.subscribe-input input{
-    
-    padding: 30px;
-    border-radius: 50px;
-    background: #FFF;
-    flex-grow: 1;
-    
-} */
 
 
 .input {
@@ -476,8 +463,85 @@ input[type=submit] {
     text-align: center;
     font-family: 'Inter';
     font-size: 20px;
-    font-weight: 600;
-   
-    
+    font-weight: 600;  
 
+}
+
+
+/*---------------------------------- footer section----------------------------- */
+
+footer {
+    width: 100%;
+    height: 609px;
+    background: #070211;
+    margin-top: 120px;
+}
+
+.foot-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-head p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.address ,.contact{
+    margin-top: 120px;
+}
+
+  hr {
+    background-color: rgba(255, 255, 255, 0.15);
+     height: 0.5px;
+     margin-top: 50px;
+}
+
+.social-icon{
+    text-align: center;
+    margin: 48px auto;
+}
+.social-icon .icon{
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.social-icon a :hover{
+    transform: translateY(-10px);
+    transition: 0.8s;
+}
+
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer-foot p{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px; 
+}
+
+.btn-unsubscribe{
+    background-color: #F00;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    height: 60px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-unsubscribe:hover {
+    transform: translateX(-10px);
+    transition: 0.8s;
 }

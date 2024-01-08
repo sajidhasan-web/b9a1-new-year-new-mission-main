@@ -228,6 +228,7 @@
     z-index: -1;
     background: #f00;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 
@@ -464,8 +465,12 @@ input[type=submit] {
     font-family: 'Inter';
     font-size: 20px;
     font-weight: 600;  
-
+    cursor: pointer;
 }
+ :hover[type=submit]{
+    transform: translateX(-5px);
+    transition: 0.8s;
+ }
 
 
 /*---------------------------------- footer section----------------------------- */
@@ -540,8 +545,9 @@ footer {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 .btn-unsubscribe:hover {
-    transform: translateX(-10px);
+    transform: translateX(-5px);
     transition: 0.8s;
 }
